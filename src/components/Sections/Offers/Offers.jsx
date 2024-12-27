@@ -1,5 +1,5 @@
 import {Container,Box} from "@mui/material";
-import {Pagination} from "swiper/modules";
+import {Autoplay,Pagination} from "swiper/modules";
 import {Swiper,SwiperSlide} from "swiper/react";
 import "swiper/css";
 import offer1 from "../../../assets/offer1.png";
@@ -11,7 +11,11 @@ export default function Offers(){
                 <Swiper
                   slidesPerView={1}
                   spaceBetween={30}
-                  modules={[Pagination]}
+                  autoplay={{
+                    delay:3000,
+                    disableOnInteraction:false,
+                 }}
+                  modules={[Autoplay,Pagination]}
                   pagination={{clickable:true}}
                   breakpoints={
                     {

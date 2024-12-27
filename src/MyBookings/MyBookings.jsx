@@ -1,5 +1,6 @@
 import {Box,Typography,Container,Stack} from "@mui/material";
 import {useEffect,useState} from "react";
+import banner from "../assets/banner.png";
 import HospitalCard from "../components/HospitalCard/HospitalCard";
 import SearchBar from "../components/SearchBar/SearchBar";
 import NavBar from "../components/NavBar/NavBar";
@@ -78,6 +79,7 @@ export default function MyBookings(){
                             </Typography>
                           )}
                     </Stack>
+                    <img src={banner} width={360} height="auto" />
                 </Stack>
             </Container>
         </Box>

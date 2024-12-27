@@ -3,6 +3,7 @@ import { useState,useEffect } from "react";
 import { useSearchParams } from "react-router-dom";
 import axios from "axios";
 import icon from "../assets/tick.png";
+import banner from "../assets/banner.png";
 import HospitalCard from "../components/HospitalCard/HospitalCard";
 import SearchHospital from "../components/SearchHospital/SearchHospital";
 import BookingModal from "../components/BookingModal/BookingModal";
@@ -119,6 +120,7 @@ export default function Search(){
                             </Typography>
                           )}
                     </Stack>
+                    <img src={banner} width={360} height="auto" alt="banner" />
                 </Stack>
             </Container>
             <BookingModal

@@ -25,12 +25,12 @@ export default function Specialists(){
              spaceBetween={20}
              loop={true}
              centeredSlides={true}
-             Autoplay={{
+             autoplay={{
                 delay:3000,
                 disableOnInteraction:false,
              }}
              modules={[Autoplay,Pagination]}
-             Pagination={{
+             pagination={{
                 clickable:true
              }}
              breakpoints={
