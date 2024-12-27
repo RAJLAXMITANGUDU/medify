@@ -1,4 +1,4 @@
-import mobile from "../../../assets/mobile.png";
+import mobile from "../../../assets/mobile.jpg";
 import playstore from "../../../assets/playstore.png";
 import apple from "../../../assets/app_store.png";
 import arrow from "../../../assets/down-arrow.png";
