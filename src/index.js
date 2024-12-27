@@ -78,7 +78,19 @@ MuiTypography:{
     },
   },
 },
-
+MuiSelect:{
+  styleOverrides:{
+    root:{
+      background:"#FAFBFE",
+      borderRadius:"8px",
+      color:"#ABB6C7",
+      "& .MuiOutlinedInput-notchedOutline, &:hover .MuiOutlinedInput-notchedOutline, & .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline":
+      {
+        borderColor:"#F0F0F0",
+      },
+    },
+  },
+},
 MuiTextField:{
   styleOverrides:{
     root:{

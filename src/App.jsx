@@ -5,10 +5,10 @@ import DownloadApp from "./components/Sections/DownloadApp/DownloadApp";
  export default function App(){
   return (
     <div>
-    <CssBaseline />
-    <Outlet />
-    <DownloadApp />
-    <Footer />
+      <CssBaseline />
+      <Outlet />
+      <DownloadApp />
+      <Footer />
     </div>
   );
 }

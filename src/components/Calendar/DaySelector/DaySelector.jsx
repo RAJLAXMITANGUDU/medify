@@ -1,7 +1,6 @@
-import {useEffect,useState} from "react";
-import {Swiper,SwiperSlide} from "Swiper/react";
-import 'Swiper/css';
-import {Box,Button,Divider,Stack,Typography} from "@mui/material";
+import {Swiper,SwiperSlide} from "swiper/react";
+import 'swiper/css';
+import {Box,Divider,Stack,Typography} from "@mui/material";
 import styles from "./DaySelector.module.css";
 import {format,add,isEqual,startOfDay} from "date-fns";
 import {SlideNextButton,SlidePrevButton} from "./SliderButtons";
@@ -76,7 +75,7 @@ export default function DaySelector({selectedDate,setSelectedDate,totalSlots}){
                 </span>
                 <span slot="container-end">
                     <Box display={{xs:"none",md:"block"}}>
-                        <SlidePrevButton />
+                        <SlideNextButton />
                     </Box>
                 </span>
             </Swiper>

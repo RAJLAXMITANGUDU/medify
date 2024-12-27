@@ -1,5 +1,5 @@
 import {Box,Button,Chip,Divider,Stack,Typography} from "@mui/material";
-import Calendar from "../../Calendar/Calendar";
+import Calendar from "../Calendar/Calendar";
 import {useState} from "react";
 import {format} from "date-fns";
 import icon from "../../assets/hospital.png";
@@ -69,7 +69,7 @@ export default function HospitalCard({availableSlots,handleBooking,details,booki
                     >
                         <Box
                           component={"img"}
-                          src="thumb"
+                          src={thumb}
                           height={{xs:16,md:20}}
                           width={{xs:16,md:20}}
                         />

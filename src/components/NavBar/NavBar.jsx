@@ -1,4 +1,4 @@
-import {Box, Stack, Typography,Container,Button,List,ListItem,useMediaQuery,IconButton} from "@mui/material";
+import {Box, Stack, Typography,Container,Button,useMediaQuery,IconButton} from "@mui/material";
 import {Link} from "react-router-dom";
 import {useState} from "react";
 import logo from "../../assets/logo.png";
@@ -12,7 +12,7 @@ export default function NavBar(){
         <header>
             <Box p={1} bgcolor="primary.main">
                 <Typography fontSize={14} textAlign="center" color="#fff">
-                    The helth and well-being of our patients and their health care team
+                    The health and well-being of our patients and their health care team
                     will always be our priority, so we follow the best practices for cleanliness.
                 </Typography>
             </Box>
